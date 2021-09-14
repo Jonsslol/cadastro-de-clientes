@@ -1,0 +1,3 @@
+create database crud; 
+use crud;
+CREATE TABLE clientes(id INT PRIMARY KEY AUTO_INCREMENT, nome varchar(15), sobrenome varchar(15), email varchar(30), idade int);
